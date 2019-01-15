@@ -83,13 +83,57 @@
 
 
 // -----------------
-var student = {
-    firstname: "Riyax",
-    lastname: "Sahid",
-    age: "35"
-};
-console.log(student.firstname);
-console.log(firstname);
+// var student = {
+//     firstname: "Riyax",
+//     lastname: "Sahid",
+//     age: "35"
+// };
+// console.log(student.firstname);
+// console.log(student);
 
 // -----------------------
-Contunue from lecture 15
+
+// var x = [10, 20 ,30]
+// var y = [10, 20, 30, true, 'Animesh']
+
+
+// console.log(x);
+// console.log(y);
+
+// var a= 6;
+// var b= 6;
+
+// if (a>b) {
+//     console.log("a is greater than b");
+// } else if (b>a) {
+//     console.log("b is greater than a");
+// } else {
+//     console.log("a is equal to b");
+// }
+
+// --------------------------
+var i = 0;      //0, 1, 5
+var limit =5;
+// while (i<limit) {
+//     console.log(i);
+//     i++         // i+1
+// }
+
+// do {
+//     console.log(i);
+//     i++;
+// } while(i<limit);
+
+// for (i=0; i<limit; i++){
+//     console.log(i);
+// }
+
+// var arr = [10, 20, 30];
+// arr.forEach(function(item){
+//     console.log(item);
+// })
+
+var arr =[10, 20, 30];
+for (var i of arr) {
+    console.log(i);
+}

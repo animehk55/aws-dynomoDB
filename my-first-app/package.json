@@ -1,0 +1,25 @@
+{
+  "name": "my-first-app",
+  "version": "1.0.0",
+  "description": "basics node app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/animehk55/aws-dynomoDB.git"
+  },
+  "keywords": [
+    "sof_keyword"
+  ],
+  "author": "Annimesh-Author",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/animehk55/aws-dynomoDB/issues"
+  },
+  "homepage": "https://github.com/animehk55/aws-dynomoDB#readme",
+  "dependencies": {
+    "underscore": "^1.9.1"
+  }
+}

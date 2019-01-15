@@ -1,0 +1,47 @@
+*
+function add(a,b) {
+    return (a+b);
+}
+
+// console.log(add(1,2));   3
+most programming language implement function in this manner. 
+The issue with this type of function is that program control is passed 
+to the function and program waits untill the function has completed its execution.
+If we have a function that takes a lot of time to execute. The program is going to continue 
+to wait untill the function completes. This is called as syncronous programming. Nodejs however
+does not run this way it runs asyncronously. It means it will not pass the control to the called function
+but will only trigger the function execution and continue executing the next lines of code. Once
+the function has executed excution,  it notifies node that it finished and node then processes its output.
+
+---------------------------
+Node js runs asyncronously.
+---------------------------
+simplest way to write async function is to write callbacks
+----------------------------
+Inline function are also called as Anynomous functions.
+-------------------------
+Whenever we declare a varibale in our code their values are accessible within the code blocks, we declare them in.
+If we declare a variable in our javascript file, it is available throughout the file. And if we declare a variable
+within a function then it is available within that function.
+---------------------------------
+let is very useful when we want to limit the scope of any variable or in declaring the variable local to the code blocks
+and without affecting any other variables with the same name that have a different scope.
+
+-------------------------------
+callback functions can be sometimes messy too maintain as we nest functions within function, 
+specially as the level of nesting increases. So there is a another way to write asyncronous code.
+This is called as the concept of promises. Callback function are triggered when it is run by the calling function.
+So it in effect wait untill it is called by calling function. Similarly a promise a way to wait for something to happen 
+promises provide a much cleaner way to write asyncronous code.
+------------------------------
+in promises the resolve and reject function can be called utmost once, in contrast with callback function 
+if you accidently invoke the callback function  twice it would be executed two times, however with promises 
+even if you call resolve ot reject several times, only the first call to resolve or reject ever gets executed,
+any subsequent call to reject or request always ignore 
+
+-----------------------------------------
+https://underscorejs.org/
+------------------------------
+ipconfi
+to see the IPv4 no.
+--------------------------------------------------------------------------------------------

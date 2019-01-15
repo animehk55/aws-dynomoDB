@@ -1,0 +1,26 @@
+{
+  "name": "web-server",
+  "version": "1.0.0",
+  "description": "A node web server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/animehk55/aws-dynomoDB.git"
+  },
+  "keywords": [
+    "hello"
+  ],
+  "author": "Animesh Author",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/animehk55/aws-dynomoDB/issues"
+  },
+  "homepage": "https://github.com/animehk55/aws-dynomoDB#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4"
+  }
+}
